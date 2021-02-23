@@ -1,4 +1,4 @@
-# WebscrapingFlaskWorkshop
+# General Guides
 
 - Installation [Guide Link](https://realpython.com/installing-python/)
 
