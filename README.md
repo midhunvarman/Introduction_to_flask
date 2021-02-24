@@ -76,5 +76,4 @@
 - This is the last step that provides some extra features like system caching, credential management and symbolic link. Select the required features and click on the next option.
 
 ![](https://github.com/lonlander/Shaastra_python_flask_workshop/blob/main/images/day1/git/8.PNG)
-
 - The Git installation is completed
