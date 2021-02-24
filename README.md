@@ -5,6 +5,7 @@
 ### Atom IDE
 
 - Visit https://atom.io/ and click download
+![Webpage](images/day1/atom/atom.PNG)
 - It will show a dialog box stating download in progress
 - Done
 
