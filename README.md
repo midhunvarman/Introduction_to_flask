@@ -1,3 +1,5 @@
+# Shaastra workshop
+
 # Installation
 
 ## Day 1
@@ -75,3 +77,36 @@
 
 ![](https://github.com/lonlander/Shaastra_python_flask_workshop/blob/main/images/day1/git/7.PNG)
 - The Git installation is completed
+
+## Day 2
+
+### Python Libraries
+- Most of the downloads for today would be python libraries 
+- Step open start menu search command prompt and open it
+
+![start menu , commmand prompt](https://www.lifewire.com/thmb/sYL7s5gOxfLXJHRkzzJrwDTd4gs=/1118x745/filters:no_upscale():max_bytes(150000):strip_icc()/open-command-prompt-w10-5c19531146e0fb00013852e8.png)
+- Type in the following commands one by one
+```
+pip install urllib3
+pip install requests
+pip install beautifulsoup4
+pip install ssl
+```
+
+- We will look at more libraries during the workshop
+
+### Heroku cli
+- The heroku cli can be downloaded in this [link](https://devcenter.heroku.com/articles/heroku-cli)
+
+![site](images/day2/heroku_installation/website.PNG)
+- Select the Start  button, then select Settings > System > About > Open About settings
+- At the right, under Device specifications, see System type or alternatively [check here](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
+- Install the 64 bit ( most or all of the recents pcs work with this) if your system type is 64 bit and vice versa
+- Open the installer, check all the below options
+
+![Installer menu](images/day2/heroku_installation/1.PNG)
+- Install in the preferred location
+
+![select preferred location of saving](images/day2/heroku_installation/saved_location.PNG)
+
+- And thats it for installation see you on 26th Feb
