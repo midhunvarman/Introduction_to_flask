@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message</title>
+</head>
+<style>
+/* Demo Only */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  color: #b0935f;
+  font-size: 2em;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+.zigzag-table {
+  border-collapse: separate;
+  border-spacing: 0.25em 1em;
+}
+th,
+td {
+  padding: 0.25em 0.5em;
+  text-align: left;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+td {
+  background-color: #d6e9ff;
+}
+th {
+  background-color: #718eb0;
+  color: #fff;
+}
+tbody tr:nth-child(even) {
+  transform: rotate(1.5deg);
+}
+tbody tr:nth-child(odd) {
+  transform: rotate(-1.5deg);
+}
+
+/* body{background: black;} */
+</style>
+<body>
+
+  <nav >
+    <ul>
+      <li >
+        <a href="index.html">Home</a>
+      </li>
+        <li >
+          <a href="aboutus.html">About us</a>
+        </li>
+
+      </ul>
+
+  </nav>
+
+  <div>
+  <h1>Covid 19 statewise statistics</h1>
+  <table class="zigzag-table">
+
+    <thead>
+      <tr>
+        <th>State</th>
+        <th>Confirmed</th>
+        <th>Recovered</th>
+        <th>Deceased</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for state in states%}
+
+      <tr>
+        <td>{{state.state}}</td>
+        <td>{{state.confirmed}}</td>
+        <td>{{state.recovered}}</td>
+        <td>{{state.deceased}}</td>
+      </tr>
+      {% endfor%}
+
+
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
