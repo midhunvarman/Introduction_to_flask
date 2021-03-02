@@ -327,3 +327,6 @@ p {
 ## Hosting with heroku
 
 - Follow this [link](Heroku/heroku.md)
+
+## Further study resources
+
