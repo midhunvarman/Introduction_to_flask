@@ -108,5 +108,3 @@ pip install ssl
 - Install in the preferred location
 
 ![select preferred location of saving](images/day2/heroku_installation/saved_location.PNG)
-
-- And thats it for installation see you on 26th Feb
