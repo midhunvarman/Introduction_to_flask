@@ -1,7 +1,4 @@
-# Shaastra workshop
-
-![Shaastra_logo](installation/images/logo/shaastra_logo.jpg)                           
-![mtx_logo](installation/images/logo/mtx.png)
+# Introduction to Flask
 
 ## Installation Guides
 
